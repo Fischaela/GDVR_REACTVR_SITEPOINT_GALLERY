@@ -14,6 +14,10 @@ class Canvas extends React.Component {
     }
   }
 
+  componentWillReceiveProps(nextProps) {
+    this.setState({src: nextProps.src});
+  }
+
   render() {
 
     return (
