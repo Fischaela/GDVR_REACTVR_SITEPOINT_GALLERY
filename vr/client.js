@@ -9,6 +9,7 @@ function init(bundle, parent, options) {
   const vr = new VRInstance(bundle, 'GDVR_REACTVR_SITEPOINT_GALLERY', parent, {
     // Add custom options here
     ...options,
+    cusorVisibility: 'visible',
   });
   vr.render = function() {
     // Any custom behavior you want to perform on each frame goes here
